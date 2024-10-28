@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ShrutiKantha/WeatherApp.git/static/css/main.e6684388.css",
+    "main.js": "/ShrutiKantha/WeatherApp.git/static/js/main.8cb3b592.js",
+    "static/js/453.63261c35.chunk.js": "/ShrutiKantha/WeatherApp.git/static/js/453.63261c35.chunk.js",
+    "index.html": "/ShrutiKantha/WeatherApp.git/index.html",
+    "main.e6684388.css.map": "/ShrutiKantha/WeatherApp.git/static/css/main.e6684388.css.map",
+    "main.8cb3b592.js.map": "/ShrutiKantha/WeatherApp.git/static/js/main.8cb3b592.js.map",
+    "453.63261c35.chunk.js.map": "/ShrutiKantha/WeatherApp.git/static/js/453.63261c35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6684388.css",
+    "static/js/main.8cb3b592.js"
+  ]
+}
