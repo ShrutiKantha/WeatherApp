@@ -1,0 +1,102 @@
+.container {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(182, 205, 237);
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    width: 350px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color: rgb(77, 77, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    gap: 20px;
+}
+
+.inputwrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.weather input {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    width: calc(100% - 50px);
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.image {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 34px;
+    width: 34px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.center img {
+    height: 100%;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.humidity, .windspeed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot img {
+    height: 40px;
+    width: 40px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.temperature {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.location {
+    margin-top: 0;
+    font-size: 20px;
+}
