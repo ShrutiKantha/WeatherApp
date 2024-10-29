@@ -49,7 +49,7 @@ const Weather = () => {
             <div className="inputwrapper">
                 <input ref={inputRef} type="text" placeholder='Search'/>
                 <div className="image">
-                    <img src="/searchicon.png" alt="" onClick={()=> search(inputRef.current.value)}/>
+                <img src={`${process.env.PUBLIC_URL}/searchicon.png`} alt="" onClick={()=> search(inputRef.current.value)}/>
                 </div>
             </div>
             {weatherData?<>
@@ -60,14 +60,14 @@ const Weather = () => {
             </div>
             <div className="foot">
                 <div className="humidity">
-                    <img src="/humidity.png" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/humidity.png`}  alt="" />
                     <div className="humpart">
                         <h1>{weatherData.humidity} %</h1>
                         <h2>Humidity</h2>
                     </div>
                 </div>
                 <div className="windspeed">
-                    <img src="/windspeed.png" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/windspeed.png`}  alt="" />
                     <div className="windpart">
                         <h1>{weatherData.windspeed} Km/h</h1>
                         <h2>Wind Speed</h2>
